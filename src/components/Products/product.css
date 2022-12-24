@@ -1,0 +1,46 @@
+.img-thumbnail3, .img-thumbnail2 {
+  position: relative;
+}
+.img-thumbnail3 img{
+  height: 100%;
+  width: auto;
+}
+.img-thumbnail3 .file {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  border: none;
+  bottom: 50px;
+  left: 0;
+  border-radius: 0;
+  font-size: 1vw;
+  background: #212529b8;
+}
+.img-thumbnail3 .file input, .img-thumbnail2 .img-des input {
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+.img-thumbnail2 .img-des {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  left: 0;
+  bottom: 10px;
+  border: none;
+  border-radius: 0;
+  font-size: 0.6vw;
+  background: #212529b8;
+}
+
+.desc-wrapper * {
+  box-sizing: content-box;
+}
+.desc-editor {
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+  height: 80% !important;
+}
