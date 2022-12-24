@@ -93,9 +93,4 @@
       "!src/polyfill.js"
     ]
   }
-  //,
-  //"engines": {
-  //  "node": ">=10",
-  //  "npm": ">=6"
-  //}
 }
